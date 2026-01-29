@@ -25,14 +25,10 @@ main/main.c
 
 main/av.c
 
-Build et Flash
+
 Une fois la configuration terminée, utilisez les commandes standards ESP-IDF :
 
-Bash 
-
-idf.py build
-idf.py flash
-idf.py monitor
+Build , Run , et regardé si votre wifi ce connecte a partir du terminal .
 
 Pilotage via YABE
 Lancez YABE sur votre PC.
