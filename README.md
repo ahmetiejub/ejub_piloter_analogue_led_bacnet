@@ -37,4 +37,4 @@ Ajoutez un "Device" en scannant le réseau (IP/UDP).
 
 Une fois l'ESP32 détecté, cherchez l'objet Analog Value.
 
-Modifiez la valeur : la tension/intensité de la LED connectée au GPIO devrait varier instantanément.
+Modifiez la valeur : comme il s'agit d'une sortie numérique, vous devez modifier le champ "value" et mettre 0 ou 1. Ainsi, vous aurez 3,2 V pour 1 et 0 V pour 0.
